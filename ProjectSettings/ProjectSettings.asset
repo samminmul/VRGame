@@ -42,8 +42,8 @@ PlayerSettings:
   m_SplashScreenLogos: []
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
-  defaultScreenWidth: 1920
-  defaultScreenHeight: 1080
+  defaultScreenWidth: 1024
+  defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
@@ -88,7 +88,7 @@ PlayerSettings:
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
   useFlipModelSwapchain: 1
-  resizableWindow: 0
+  resizableWindow: 1
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
   gpuSkinning: 1
@@ -154,7 +154,8 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Standalone: com.DefaultCompany.VRGame
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -616,7 +617,7 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: VIU_PLUGIN;VIU_XR_GENERAL_SETTINGS;VIU_XR_PACKAGE_METADATA_STORE;VIU_UIS_POSE_CONTROL;VIU_WAVEXR_ESSENCE_CONTROLLER_MODEL;VIU_WAVE_XRSDK_3_99_31_OR_NEWER;VIU_WAVE_XRSDK_4_2_90_OR_NEWER;VIU_WAVEVR_HAND_TRACKING;VIU_WAVEVR_CONTROLLER_RENDERMODEL;VIU_WAVEVR_HAND_TRACKING_CHECK;VIU_WAVEVR_TRACKER;VIU_WAVEVR_TRACKER_CHECK
+    Standalone: VIU_PLUGIN;VIU_XR_GENERAL_SETTINGS;VIU_XR_PACKAGE_METADATA_STORE;VIU_UIS_POSE_CONTROL;VIU_WAVEXR_ESSENCE_CONTROLLER_MODEL;VIU_WAVE_XRSDK_3_99_31_OR_NEWER;VIU_WAVE_XRSDK_4_2_90_OR_NEWER;VIU_WAVEVR_HAND_TRACKING;VIU_WAVEVR_CONTROLLER_RENDERMODEL;VIU_WAVEVR_HAND_TRACKING_CHECK;VIU_WAVEVR_TRACKER;VIU_WAVEVR_TRACKER_CHECK;VIU_OPENXR;VIU_OPENXR_PLUGIN_POSE_CONTROL;VIU_OCULUSVR_DESKTOP_SUPPORT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
