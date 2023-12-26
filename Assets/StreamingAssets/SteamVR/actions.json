@@ -501,7 +501,9 @@
       "/actions/htc_viu/in/viu_skeleton_left": "Skeleton (Left)",
       "/actions/htc_viu/in/viu_skeleton_right": "Skeleton (Right)",
       "/actions/default/in/TouchPad": "TouchPad",
-      "/actions/default/in/TouchPosition": "TouchPosition"
+      "/actions/default/in/TouchPosition": "TouchPosition",
+      "/actions/htc_viu/in/viu_press_36": "Press08 (Joystick)",
+      "/actions/htc_viu/in/viu_touch_36": "Touch08 (Joystick)"
     }
   ]
 }
